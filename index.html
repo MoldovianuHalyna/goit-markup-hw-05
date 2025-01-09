@@ -429,21 +429,31 @@
     <div class="modal-overlay">
       <!-- modal window -->
       <div class="modal-window">
-        Leave your contacts and we will call you back
+        <p>Leave your contacts and we will call you back</p>
         <form class="form">
-          <label class="label label-name">
-            <span class="label-text">Name</span>
-            <input type="text" name="firstName" autofocus />
-          </label>
-          <label class="label label-phone">
-            <span class="label-text">Phone</span>
-            <input type="text" name="phone" />
-          </label>
-          <label class="label label-email">
-            <span class="label-text">E-mail</span>
-            <input type="text" name="email" />
-          </label>
-          <button class="send-button" type="submit">Send</button>
+          <label class="label label-name" > Name </label>
+          
+          <input class="input-name"type="text" name="firstName" placeholder="" autofocus />
+
+            <label class="label label-phone">
+             Phone
+            </label>
+            <input type="tel" name="phone" />
+            <label class="label label-email">
+              E-mail
+            </label>
+            <input type="email" name="email" />
+            <label class="label label-feedback">
+              Feedback
+            </label>
+            <textarea name="comment" rows="5" placeholder="Text input"></textarea>
+<label class=" label policy-terms">
+              <input class="terms-input"type="checkbox" name="terms" value="conditions"  />
+              I accept the terms and conditions of the<a href="" class="policy">Privacy Policy</a>
+            </label>
+            <button class="send-button" type="submit">Send</button>
+            
+          </div>
         </form>
       </div>
     </div>

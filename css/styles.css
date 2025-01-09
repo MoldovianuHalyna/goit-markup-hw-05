@@ -493,7 +493,7 @@ body {
 .f-icon {
   fill: #f4f4fd;
 }
-/* Modal overlay 
+/* Modal overlay */
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -524,6 +524,9 @@ body {
 .form {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px;
 }
 .label {
   font-family: "Roboto", sans-serif;
@@ -533,8 +536,17 @@ body {
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
+
 .label-text {
   margin-bottom: 4px;
+}
+.terms-input {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
 }
 .send-button {
   display: flex;
@@ -548,4 +560,10 @@ body {
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
+}
+.policy {
+  line-height: 1.33333;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #4d5ae5;
 }
