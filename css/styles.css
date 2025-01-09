@@ -548,6 +548,13 @@ body {
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
+.label input {
+  border: 1px solid #4d5ae5;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  background-color: #4d5ae5;
+}
 .send-button {
   display: flex;
   align-items: flex-start;
