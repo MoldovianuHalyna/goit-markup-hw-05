@@ -685,7 +685,7 @@ body {
   justify-content: center;
   fill: transparent;
 }
-.input-checkbox:checked span {
+.input-checkbox:checked {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
