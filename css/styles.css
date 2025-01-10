@@ -632,7 +632,7 @@ body {
 .name-input:focus-within {
   border-color: #4d5ae5;
 }
-.name-input:focus-within svg {
+.input-icon-div:focus-within svg {
   fill: #4d5ae5;
 }
 .icon-name {
@@ -684,8 +684,9 @@ body {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 10px;
 }
-.input-checkbox:checked {
+.input-checkbox:checked + .privacy-label .privacy-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
