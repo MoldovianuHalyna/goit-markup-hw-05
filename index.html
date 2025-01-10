@@ -427,49 +427,6 @@
     <!-- footer -->
     <footer class="footer">
       <div class="container container-footer">
-        <!-- Modal -->
-        <!-- modal overlay -->
-        <div class="modal-overlay">
-          <!-- modal window -->
-          <div class="modal-window">
-            <p>Leave your contacts and we will call you back</p>
-            <form class="form">
-              <label class="label label-name"> Name </label>
-
-              <input
-                class="input input-name"
-                type="text"
-                name="firstName"
-                autofocus
-              />
-
-              <label class="label label-phone"> Phone </label>
-              <input class="input input-phone" type="tel" name="phone" />
-              <label class="label label-email"> E-mail </label>
-              <input class="input input-phone" type="email" name="email" />
-              <label class="label label-feedback"> Feedback </label>
-              <textarea
-                name="comment"
-                rows="5"
-                placeholder="Text input"
-              ></textarea>
-              <label class="label policy-terms">
-                <input
-                  class="terms-input"
-                  type="checkbox"
-                  name="terms"
-                  value="conditions"
-                />
-                I accept the terms and conditions of the<a
-                  href=""
-                  class="policy"
-                  >Privacy Policy</a
-                >
-              </label>
-              <button class="send-button" type="submit">Send</button>
-            </form>
-          </div>
-        </div>
         <div class="footer-content">
           <a class="footer_logo" href="./index.html"
             >Web<span class="logo--studio--footer">Studio</span></a
@@ -512,6 +469,21 @@
               </a>
             </li>
           </ul>
+        </div>
+        <!-- subscribe element -->
+        <div class="container-form">
+          <p class="container-form-paragraph">Subscribe</p>
+          <form class="subscribe-form">
+            <label class="subscribe-label">
+              <input
+                class="subscribe-input"
+                name="subscribe-input"
+                type="email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="button-submit" type="submit">Subscribe</button>
+          </form>
         </div>
       </div>
     </footer>
